@@ -1,6 +1,5 @@
 package application;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -28,6 +27,8 @@ public class Program {
 		}
 		
 		System.out.println("Total students: " + studentAmount);
+		
+		sc.close();
 	}
 	
 	private static char chooseCourse(int indice) {
